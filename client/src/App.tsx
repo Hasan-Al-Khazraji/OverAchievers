@@ -1,14 +1,21 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import Vote from './pages/Vote';
+import Live from './pages/Live';
 import NavBar from './components/navBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <nav>
-          <NavBar></NavBar>
-        </nav>
-      </header>
+    <div>
+      <BrowserRouter>
+      <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/vote" element={<Vote />}/>
+          <Route path="/live" element={<Live />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
