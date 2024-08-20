@@ -24,7 +24,7 @@ export default function Card({
   return (
     <div
       className={
-        "w-64 hover:cursor-pointer bg-opacity-75 hover:-translate-x-2 hover:-translate-y-2 " +
+        "w-64 hover:cursor-pointer bg-opacity-75 hover:-translate-x-2 hover:-translate-y-2 active:bg-green-800 " +
         (selectedCard ? "bg-green-500 drop-shadow-2xl -translate-x-2 -translate-y-2" : "bg-black")
       }
       onClick={() => {
