@@ -1,7 +1,7 @@
 import Card from "./card/card";
 import { Tooltip } from "@mui/material";
 import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface CategoryProps {
   title: string;
@@ -10,10 +10,10 @@ interface CategoryProps {
 }
 
 export default function Category({ title, toolTipText }: CategoryProps) {
-  const [selected, setSelected] = useState('');
+  const [selectedNom, setSelectedNom] = useState('');
 
   const handleSelect = (categoryName: string) => {
-    setSelected(categoryName)
+    setSelectedNom(categoryName)
   }
 
   return (
@@ -29,9 +29,9 @@ export default function Category({ title, toolTipText }: CategoryProps) {
         )}
       </div>
       <div className="flex justify-center mt-6 mb-36 space-x-6">
-        <Card channelName="Sample" imageSource="Sample" onSelect={handleSelect}/>
-        <Card channelName="Sample2" imageSource="Sample2" onSelect={handleSelect}/>
-        <Card channelName="Sample3" imageSource="Sample3" onSelect={handleSelect}/>
+        <Card channelName="Sample" imageSource="Sample" onSelect={handleSelect} selected={selectedNom}/>
+        <Card channelName="Sample2" imageSource="Sample2" onSelect={handleSelect} selected={selectedNom}/>
+        <Card channelName="Sample3" imageSource="Sample3" onSelect={handleSelect} selected={selectedNom}/>
       </div>
     </>
   );
