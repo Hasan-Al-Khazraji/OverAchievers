@@ -35,14 +35,14 @@ export default function Vote() {
     });
   };
 
+  const handleSubmit = () => {
+    console.log(nominees);
+  };
+
   const [nominees, setNominees] = useState<nomineesType>({
     User: "some-UUID",
     votes: [],
   });
-
-  useEffect(() => {
-    console.log(nominees);
-  }, [nominees]);
 
   return (
     <div className="bg-gradient-to-b from-emerald-200 to-emerald-600">
@@ -62,7 +62,9 @@ export default function Vote() {
         onSelect={handleSelect}
       />
       <div className="flex justify-center">
-        <SubmitButton />
+        <span onClick={handleSubmit}>
+          <SubmitButton />
+        </span>
       </div>
     </div>
   );
