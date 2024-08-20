@@ -10,7 +10,11 @@ interface CategoryProps {
 }
 
 export default function Category({ title, toolTipText }: CategoryProps) {
-  const [selected, setSelected] = useState(0);
+  const [selected, setSelected] = useState('');
+
+  const handleSelect = (categoryName: string) => {
+    setSelected(categoryName)
+  }
 
   return (
     <>
@@ -25,7 +29,9 @@ export default function Category({ title, toolTipText }: CategoryProps) {
         )}
       </div>
       <div className="flex justify-center mt-6 mb-36 space-x-6">
-        <Card channelName="Sample" imageSource="Sample" />
+        <Card channelName="Sample" imageSource="Sample" onSelect={handleSelect}/>
+        <Card channelName="Sample2" imageSource="Sample2" onSelect={handleSelect}/>
+        <Card channelName="Sample3" imageSource="Sample3" onSelect={handleSelect}/>
       </div>
     </>
   );
