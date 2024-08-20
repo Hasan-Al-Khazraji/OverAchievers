@@ -29,7 +29,7 @@ export default function Card({
       }
       onClick={() => {
         onSelect(channelName);
-        setSelectedCard(!selectedCard);
+        setSelectedCard(true);
       }}
     >
       <img src={imageSource} alt={channelName} width="256px" className="p-4" />
