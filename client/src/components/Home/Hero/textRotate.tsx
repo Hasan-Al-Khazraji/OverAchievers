@@ -20,11 +20,11 @@ const TextRotate = () => {
     <div className="relative flex w-full items-center py-4 text-center">
       <AnimatePresence>
         <motion.div
-          className="absolute cursor-pointer text-xl md:text-6xl font-Arcade tracking-tight text-green-400 bg-black bg-opacity-50 p-4"
+          className="absolute cursor-pointer text-xl md:text-6xl font-Arcade tracking-tight text-green-400 bg-[#011611] p-4"
           key={index}
-          initial={{ y: 20, opacity: 0, scale: 1 }}
-          animate={{ y: 0, opacity: 1, scale: 1 }}
-          exit={{ y: -20, opacity: 0, scale: 1 }}
+          initial={{ y: 43, opacity: 1, rotateX: -90 }}
+          animate={{ y: 0, opacity: 1, rotateX: 0 }}
+          exit={{ y: -43, opacity: 1, rotateX: 90 }}
           transition={{ ease: 'easeInOut', delay: 0.2, duration: 0.5 }}
         >
           {text[index]}

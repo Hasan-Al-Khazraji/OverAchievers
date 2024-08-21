@@ -9,13 +9,13 @@ export default function Hero() {
                     <STLViewer url="/trophy.STL" />
                 </div>
                 <div className='text-center content-center md:mb-8 max-md:w-fit max-md:ml-8'>
-                    <h1 className='text-xl md:text-6xl max-md:flex font-Arcade text-white bg-black bg-opacity-50 p-4'>CELEBRATING</h1>
-                    <h1 className='text-xl md:text-6xl max-md:flex font-Arcade text-white bg-black bg-opacity-50 p-4'>MINECRAFT’S</h1>
+                    <h1 className='text-xl md:text-6xl max-md:flex font-Arcade text-white bg-[#011611] p-4'>CELEBRATING</h1>
+                    <h1 className='text-xl md:text-6xl max-md:flex font-Arcade text-white bg-[#011611] p-4'>MINECRAFT’S</h1>
                     <div className='flex'>
-                        <h1 className='text-xl md:text-6xl font-Arcade text-white bg-black bg-opacity-50 p-4 pr-8'>MOST</h1>
+                        <h1 className='text-xl md:text-6xl font-Arcade text-white bg-[#011611] p-4 pr-8'>MOST</h1>
                         <TextRotate />
                     </div>
-                    <div className='bg-black bg-opacity-50 w-fit flex'>
+                    <div className='bg-[#011611] w-fit flex'>
                         <h1 className='text-xl md:text-6xl font-Arcade text-white p-4'>CREATORS</h1>
                     </div>
                     <img src="/squiggle_2.png" className='z-1' style={{position: 'relative', left: '500px', bottom: '20px'}}/>
