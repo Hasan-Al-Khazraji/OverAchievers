@@ -45,19 +45,22 @@ export default function Vote() {
   });
 
   return (
-    <div className="bg-gradient-to-b from-emerald-200 to-emerald-600">
-      <div className="mb-24">
-        <div className="flex justify-center pt-20">
+    <div className="bg-gradient-to-b from-emerald-800 to-emerald-950">
+      <div className="mb-24 h-fit">
+        <div className="flex justify-center pt-56">
           <span className="bg-black bg-opacity-85 p-6">
-            <h1 className="font-Arcade text-white text-6xl">Vote Now</h1>
+            <h1 className="font-Arcade text-white text-8xl text-center">Vote Now</h1>
           </span>
         </div>
         <h3 className="font-Retro text-white text-lg drop-shadow-sm text-center mt-5">
           Categories may be skipped.
         </h3>
+        <div className="flex justify-center mt-16 animate-bounce">
+          <img src="https://github.com/user-attachments/assets/c66e9dcd-d287-451a-83f8-ebc2160527ac" alt="Downward Arrow" width={150}/>
+        </div>
       </div>
       <Category
-        title="Sample Category"
+        title="Best *minecraft* youtubers"
         toolTipText="Sample"
         onSelect={handleSelect}
       />
