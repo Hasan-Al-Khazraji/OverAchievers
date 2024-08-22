@@ -9,6 +9,26 @@ interface TeamCardProps {
 export default function TeamCard({name, socialLink, title, qualifications, imageSource} : TeamCardProps) {
   return (
     <div className="flex flex-row md:flex-col max-md:px-8 items-center">
+      {name.toLowerCase() == "skyboi" ? (
+        <>
+          <img
+            src="/squiggle_3.png"
+            alt="star"
+            className="absolute w-0 md:w-12 md:ml-60"
+          />
+          <img
+            src="/squiggle_3.png"
+            alt="star"
+            className="absolute w-0 md:w-6 md:ml-72 md:mt-10"
+          />
+        </>
+      ) : (
+        <img
+          src="/squiggle_3.png"
+          alt="star"
+          className="absolute w-0 md:w-8 md:ml-64 md:mt-52"
+        />
+      )}
       <a href={socialLink} target="_blank">
             <img
             src={imageSource}
