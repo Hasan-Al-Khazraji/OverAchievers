@@ -4,37 +4,37 @@ import MiniTeamCard from "./miniTeamCard"
     {
         name: 'aeon/Hasan',
         title: 'Web Developer',
-        qualifications: ['40,000+ Subscribers', 'GDSC Hacks Winner'],
-        socialLink: "https://www.youtube.com/@aeonyoutube",
+        qualifications: ['GDSC Hacks Winner'],
+        socialLink: "https://github.com/Hasan-Al-Khazraji",
         imageSource: '/images/aeon.jpg'
     },
     {
         name: 'Chiffoi',
         title: 'Graphic Designer',
-        qualifications: ['5000+ Subscribers', 'SMP Youtuber'],
+        qualifications: ['Co-owner of Women We Watch'],
         socialLink: "https://www.youtube.com/@ChiffoiMC",
         imageSource: '/images/chiffoi.jpg'
     },
     {
         name: 'GianLuca',
         title: 'Server Developer',
-        qualifications: [''],
+        qualifications: ['Enterprise Server Developer'],
         socialLink: "https://github.com/GiansCode",
         imageSource: '/images/GianLuca.png'
     },
     {
-        name: 'CraftyMasterman',
-        title: 'Redstone Engineer',
-        qualifications: ['190,000+ Subscribers', 'Giant piston door guy'],
-        socialLink: "https://www.youtube.com/@CraftyMasterman",
-        imageSource: '/images/Crafty.jpg'
+        name: 'Maker',
+        title: 'Physical Award Creator',
+        qualifications: ['The Minecraft Actualizer'],
+        socialLink: "https://github.com/GiansCode",
+        imageSource: '/images/Maker.jpg'
     },
     {
-        name: 'Maker Media Plus',
-        title: 'Redstone Engineer',
-        qualifications: ['30,000+ Subscribers', 'Has made a mask'],
-        socialLink: "https://www.youtube.com/@MakerMediaPlus",
-        imageSource: '/images/Maker.jpg'
+        name: 'Youri',
+        title: 'Builder',
+        qualifications: ['Head Server Builder', '2K+ Players'],
+        socialLink: "https://www.youtube.com/@CraftyMasterman",
+        imageSource: '/images/Youri.jpg'
     },
 ]
   
