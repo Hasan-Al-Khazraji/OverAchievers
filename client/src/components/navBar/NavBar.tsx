@@ -28,7 +28,7 @@ export default function NavBar() {
   }, [location])
 
   return (
-    <div className="bg-green-700 p-2 flex">
+    <div className="bg-green-700 p-2 flex fixed z-50 w-screen">
       <div className="flex items-center">
         <img
           src="https://github.com/user-attachments/assets/15523d9b-67d9-47dd-af8d-660d819e6683"
