@@ -3,12 +3,29 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { Button } from "@mui/material";
 import GoogleIcon from "@mui/icons-material/Google";
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function NavBar() {
   const navigate = useNavigate();
   const [page, setPage] = useState(0);
+  let location = useLocation();
+
+  useEffect(() => {
+    switch(location.pathname){
+      case ('/'):
+        setPage(0);
+        break;
+      case ('/vote'):
+        setPage(1);
+        break;
+      case ('/live'):
+        setPage(2);
+        break;
+      default:
+        setPage(0)
+    }
+  }, [location])
 
   return (
     <div className="bg-green-700 p-2 flex">
