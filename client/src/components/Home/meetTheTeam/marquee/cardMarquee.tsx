@@ -2,8 +2,8 @@ import MiniTeamCard from "./miniTeamCard"
 
   const contributers = [
     {
-        name: 'aeon/Hasan',
-        title: 'Web Developer',
+        name: 'Hasan',
+        title: 'Full-Stack Developer',
         qualifications: ['GDSC Hacks Winner'],
         socialLink: "https://github.com/Hasan-Al-Khazraji",
         imageSource: '/images/aeon.jpg'
@@ -25,15 +25,15 @@ import MiniTeamCard from "./miniTeamCard"
     {
         name: 'Maker',
         title: 'Physical Award Creator',
-        qualifications: ['The Minecraft Actualizer'],
-        socialLink: "https://github.com/GiansCode",
+        qualifications: ['Builds real-life Minecraft items'],
+        socialLink: "https://www.youtube.com/@MakerMediaPlus",
         imageSource: '/images/Maker.jpg'
     },
     {
         name: 'Youri',
         title: 'Builder',
         qualifications: ['Head Server Builder', '2K+ Players'],
-        socialLink: "https://www.youtube.com/@CraftyMasterman",
+        socialLink: "https://www.youtube.com/@YouriBuilds",
         imageSource: '/images/Youri.jpg'
     },
 ]
