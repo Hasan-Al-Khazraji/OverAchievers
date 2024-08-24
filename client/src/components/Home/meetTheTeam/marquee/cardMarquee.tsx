@@ -36,6 +36,13 @@ import MiniTeamCard from "./miniTeamCard"
         socialLink: "https://www.youtube.com/@YouriBuilds",
         imageSource: '/images/Youri.jpg'
     },
+    {
+        name: 'CraftyMasterman',
+        title: 'Consultant',
+        qualifications: ['Host of Redstone Awards'],
+        socialLink: "https://www.youtube.com/CraftyMasterman",
+        imageSource: '/images/Crafty.jpg'
+    },
 ]
   
   const CardMarquee = () => {
