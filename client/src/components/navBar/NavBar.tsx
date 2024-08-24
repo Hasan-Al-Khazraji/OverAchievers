@@ -39,7 +39,7 @@ export default function NavBar() {
           OVERACHIEVERS
         </h1>
       </div>
-      <div className="flex items-center">
+      <div className="flex items-center md:ml-8">
         <Tabs
           value={page}
           sx={{ "& .MuiTabs-indicator": { backgroundColor: "#86efac" } }}
@@ -74,7 +74,7 @@ export default function NavBar() {
         <Button
           variant="contained"
           endIcon={<GoogleIcon />}
-          className="bg-green-950"
+          className="bg-green-950 mr-2"
         >
           Login
         </Button>

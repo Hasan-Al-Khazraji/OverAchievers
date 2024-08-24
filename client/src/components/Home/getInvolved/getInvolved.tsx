@@ -17,7 +17,7 @@ export default function GetInvolved() {
       ) : (
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="SkyBoi_YT"
+          screenName="OverachieversMC"
           options={{ height: 600, width: window.innerWidth }}
         />
       )}
