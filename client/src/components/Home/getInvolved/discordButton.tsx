@@ -4,7 +4,7 @@ const handleClick = () => {
 
 const DiscordButton = () => {
   return (
-    <button onClick={handleClick} className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-[#5865F2] px-4 py-1.5 text-xs font-normal text-white transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[#5865F2] mb-8 max-md:m-6">
+    <button onClick={handleClick} className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-[#5865F2] p-4 text-xs font-normal text-white transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[#5865F2] mb-8 max-md:m-6">
       <img
         src="Discord_logo.png"
         alt="Discord_logo"

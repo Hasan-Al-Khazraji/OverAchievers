@@ -18,7 +18,7 @@ export default function GetInvolved() {
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="OverachieversMC"
-          options={{ height: 600, width: window.innerWidth }}
+          options={{ height: 600, width: window.innerWidth - 42 }}
         />
       )}
     </div>
