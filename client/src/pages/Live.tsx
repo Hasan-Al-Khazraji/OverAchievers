@@ -1,4 +1,5 @@
 import TwitchEmbedPlayer from "../components/Live/twitchEmbedPlayer";
+import TheWinners from "../components/Live/theWinners";
 
 export default function Live() {
     return (
@@ -7,7 +8,9 @@ export default function Live() {
           <TwitchEmbedPlayer />
         </div>
         <img src="/border1.png" alt="Border" className='bg-gray-100 w-svw'/>
-        <div></div>
+        <div>
+          <TheWinners />
+        </div>
       </div>
     );
   }
