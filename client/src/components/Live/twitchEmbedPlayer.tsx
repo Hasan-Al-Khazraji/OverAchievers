@@ -9,6 +9,6 @@ export default function TwitchEmbedPlayer() {
     };
 
     return (
-        <TwitchEmbed channel="jetstarfishlive" autoplay withChat={false} darkMode={true} hideControls onVideoReady={handleReady} width={window.innerWidth} height={'80svh'}/>
+        <TwitchEmbed channel="jetstarfishlive" autoplay withChat={false} darkMode={true} hideControls onVideoReady={handleReady} width={window.innerWidth} height={window.innerWidth > 600 ? '80svh' : '22svh'}/>
     );
 }
